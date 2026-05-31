@@ -13,7 +13,7 @@ model = AutoModelForSeq2SeqLM.from_pretrained(repo_id)
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model.to(device)
 
-pool_df = pd.read_json("/kaggle/input/datasets/liudmilashlyakhtina/mem-thesis/al_pool.json")
+pool_df = pd.read_json("/kaggle/input/datasets/liudmilashlyakhtina/mem_thesis_ja_en/al_pool.json")
 if 'is_annotated' in pool_df.columns:
     unannotated_pool = pool_df[~pool_df['is_annotated']].copy()
 else:

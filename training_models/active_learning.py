@@ -22,8 +22,8 @@ from peft import get_peft_model, LoraConfig, TaskType
 login(token="HF_TOKEN")
 BASE_MODEL_ID  = "crowwwwww6/nllb-ja-en-memory-v2.0"
 NEW_REPO_ID = "crowwwwww6/nllb-ja-en-memory-v2.1-lora"
-VAL_PATH = "/kaggle/input/datasets/niranpruksamanee/mem-thesis/combined_ja_en_dev.json"
-ACTIVE_PATH = "/kaggle/input/datasets/niranpruksamanee/mem-thesis/batch_1.json"
+VAL_PATH = "/kaggle/input/datasets/niranpruksamanee/mem_thesis_ja_en/combined_ja_en_dev.json"
+ACTIVE_PATH = "/kaggle/input/datasets/niranpruksamanee/mem_thesis_ja_en/batch_1.json"
 
 OVERSAMPLE_FACTOR = 3
 SEED = 42
