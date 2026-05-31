@@ -22,7 +22,7 @@ tokenizer = NllbTokenizer.from_pretrained(
     src_lang="eng_Latn",
     tgt_lang="jpn_Jpan"
 )
-model_id = "crowwwwww6/nllb-en-ja-no-mem-v1"
+model_id = "crowwwwww6/nllb-en-ja-no-mem"
 model = AutoModelForSeq2SeqLM.from_pretrained(model_id)
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
