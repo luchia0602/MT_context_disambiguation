@@ -28,3 +28,7 @@ Developed as part of a Master’s thesis at the Higher School of Economics.
   - al_pool.py: Script for identifying least probable translations out of a samples pool
   - memory_model.py: Main script for training a model with memory prefixes
   - no_memory_model.py: Main script for training a model without memory prefixes
+
+All datasets are available at https://www.kaggle.com/datasets/liudmilashlyakhtina/mem-thesis-en-ja and https://www.kaggle.com/datasets/liudmilashlyakhtina/mem-thesis-ja-en.
+
+All models are available at https://huggingface.co/crowwwwww6.
