@@ -19,7 +19,7 @@ Developed as part of a Master’s thesis at the Higher School of Economics.
   - testing_politeness.py: Script evaluating a model's ability to identify politeness levels
 
 ► testing_models
-  - document_level_metrics: Scripts for evaluating models' perfomance by computing d-COMET
+  - document_level_metrics: Scripts for evaluating models' perfomance by computing d-COMET and BERTscore
   - linguistic_phenomena: Scripts for evaluating models' performance in terms of tackling specific linguistic phenomena
   - sentence_level_metrics: Scripts for evaluating models' performance by computing SacreBLEU and chrF++
 
